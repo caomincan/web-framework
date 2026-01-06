@@ -1,0 +1,29 @@
+server:
+  address: ":8080"
+
+logger:
+  appLogger:
+    path: "/var/log/demo"
+    file: "app.log"
+    level: "info"
+    header: true
+    ctxKeys: ["ContextID", "RequestID", "Action", "CallerType", "CallerID"]
+    rotateSize: "250M"
+    rotateBackupLimit: 4
+    stdout: false
+    flags: 45 # hour-minute-seconds file:line async
+
+  errLogger:
+    path: "/var/log/demo"
+    file: "error.log"
+    level: "info"
+    header: true
+    ctxKeys: ["ContextID", "RequestID", "Action", "CallerType", "CallerID"]
+    rotateSize: "100M"
+    rotateBackupLimit: 4
+    stdout: false
+    flags: 45 # hour-minute-seconds file:line async
+
+
+other:
+  dynamic_config_file: ${dynamic_config_file}
