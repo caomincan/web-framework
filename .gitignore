@@ -2,3 +2,5 @@
 **/.DS_Store
 *.out
 web-framework
+coverage.html
+cobertura-coverage.xml
