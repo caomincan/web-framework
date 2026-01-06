@@ -1,4 +1,4 @@
-module github.com/caomincan/web-framwork
+module github.com/caomincan/web-framework
 
 go 1.24
 

@@ -16,7 +16,7 @@
 package middleware
 
 import (
-	"github.com/caomincan/web-framwork/internal/const/web"
+	"github.com/caomincan/web-framework/internal/const/web"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"
 )

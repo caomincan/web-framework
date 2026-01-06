@@ -16,8 +16,8 @@
 package version
 
 import (
-	"github.com/caomincan/web-framwork/api/common"
-	"github.com/caomincan/web-framwork/internal/const/web"
+	"github.com/caomincan/web-framework/api/common"
+	"github.com/caomincan/web-framework/internal/const/web"
 	"github.com/gogf/gf/v2/net/ghttp"
 )
 
@@ -25,7 +25,7 @@ import (
 var (
 	version = "dev"
 	commit  = "none"
-	data    = "unknown"
+	date    = "unknown"
 )
 
 type buildInfo struct {
@@ -52,7 +52,7 @@ func BuildInfo(r *ghttp.Request) {
 		Data: &buildInfo{
 			Version:   version,
 			Commit:    commit,
-			BuildDate: data,
+			BuildDate: date,
 		},
 	}
 	r.Response.WriteJson(res)

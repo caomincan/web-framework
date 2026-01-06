@@ -16,9 +16,9 @@
 package main
 
 import (
-	"github.com/caomincan/web-framwork/internal/cmd"
-	"github.com/caomincan/web-framwork/internal/logic/prepare"
-	"github.com/caomincan/web-framwork/internal/service/task"
+	"github.com/caomincan/web-framework/internal/cmd"
+	"github.com/caomincan/web-framework/internal/logic/prepare"
+	"github.com/caomincan/web-framework/internal/service/task"
 	"github.com/gogf/gf/v2/net/ghttp"
 )
 

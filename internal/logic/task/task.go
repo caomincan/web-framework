@@ -20,8 +20,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/caomincan/web-framwork/internal/const/web"
-	"github.com/caomincan/web-framwork/internal/model/entity"
+	"github.com/caomincan/web-framework/internal/const/web"
+	"github.com/caomincan/web-framework/internal/model/entity"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gctx"
 	"github.com/google/uuid"

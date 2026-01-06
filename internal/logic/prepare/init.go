@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/caomincan/web-framwork/internal/config"
-	"github.com/caomincan/web-framwork/internal/const/web"
-	"github.com/caomincan/web-framwork/internal/service/task"
+	"github.com/caomincan/web-framework/internal/config"
+	"github.com/caomincan/web-framework/internal/const/web"
+	"github.com/caomincan/web-framework/internal/service/task"
 	"github.com/gogf/gf/v2/frame/g"
 )
 

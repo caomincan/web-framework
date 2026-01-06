@@ -18,7 +18,7 @@ package cmd
 import (
 	"context"
 
-	"github.com/caomincan/web-framwork/internal/server"
+	"github.com/caomincan/web-framework/internal/server"
 	"github.com/gogf/gf/v2/os/gcmd"
 	"github.com/gogf/gf/v2/os/gctx"
 )

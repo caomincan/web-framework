@@ -18,7 +18,7 @@ package task
 import (
 	"fmt"
 
-	"github.com/caomincan/web-framwork/internal/model/entity"
+	"github.com/caomincan/web-framework/internal/model/entity"
 )
 
 type Manager struct {

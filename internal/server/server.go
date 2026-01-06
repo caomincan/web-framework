@@ -18,9 +18,9 @@ package server
 import (
 	"sync"
 
-	"github.com/caomincan/web-framwork/internal/controller/health"
-	"github.com/caomincan/web-framwork/internal/controller/version"
-	"github.com/caomincan/web-framwork/internal/middleware"
+	"github.com/caomincan/web-framework/internal/controller/health"
+	"github.com/caomincan/web-framework/internal/controller/version"
+	"github.com/caomincan/web-framework/internal/middleware"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"
 )

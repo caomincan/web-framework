@@ -18,8 +18,8 @@ package task
 import (
 	"sync"
 
-	"github.com/caomincan/web-framwork/internal/logic/task"
-	"github.com/caomincan/web-framwork/internal/model/entity"
+	"github.com/caomincan/web-framework/internal/logic/task"
+	"github.com/caomincan/web-framework/internal/model/entity"
 )
 
 var (
